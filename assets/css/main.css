@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,700,900|Raleway:300,800,900');
+
+ body{
+	font-family: "Lato", sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	color: #666666;
+}
+
+h1 {
+	margin-top: 130px;
+	margin-bottom: 15px;
+	font-family: Raleway, sans-serif;
+	font-weight: 900;
+	text-transform: uppercase;
+	color: #333740;
+	font-size: 72px;
+	padding-left: 35px;
+	position: relative;
+	padding-top: 0;
+	line-height: 72px;
+}
+
+h1::before {
+	
+	content: "";
+	position: absolute;
+	height: 105px;
+	width: 6px;
+	background-color: #18a3dd;
+	border-radius: 3px;
+	top: 0;
+	left: 0;
+}
+
+h6 { 
+	font-family: Raleway, sans-serif;
+	font-weight: 800;
+	color: #333740;
+	font-size: 24px;
+	margin-top: -8px;
+	padding-left: 35px;
+	margin-bottom: 30px;
+}
+
+
+
+.button--blue { 
+	margin-top: 20px;
+	font-family: Lato, sans-serif;
+	text-transform: uppercase;
+	color: #ffffff;
+	font-weight: 400;
+	font-size: 16px;
+	display: inline-block;
+	width: 180px;
+	height: 50px;
+	background-color: #18a3dd;
+	border-radius: 25px;
+	text-align: center;
+	padding: 12px;
+	border: 2px solid #18a3dd;
+}
+
+.button--blue:hover { background-color: white;
+	padding: 12px;
+	color: #18a3dd;
+	text-decoration: none;
+	
+}
+
+.button--video { 
+	font-family: Lato, sans-serif;
+	text-transform: uppercase;
+	color: #333740;
+	font-weight: 400;
+	text-decoration: none;
+	margin-left: 27px;
+}
+
+.button--video i {
+	color: #18a3dd;
+	
+}
+
+.img-tablets { margin-left: 40px;
+}
+
+.navbar-toggler {
+	border: none;
+}
+
+.fa-bars {
+	font-size: 40px;
+}
+
+.statist {
+	background-color: #0f0816;
+	margin-top: 170px;
+	margin-bottom: 70px;
+	height: 350px;
+}
+
+.container-fluid {
+	padding: 0;
+}
+
+.img-bottle {
+	margin-left: -120px;
+	margin-top: -120px;
+}
+
+h3 {
+	margin-top: -30px;
+	color: white;
+	font-size: 72px;
+	font-weight: 900;
+}
+
+.text-blue {
+color:#18a3dd;
+text-transform: uppercase;
+font-weight: 700;
+margin-bottom: 0px;
+}
+
+
